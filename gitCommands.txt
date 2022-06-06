@@ -1,0 +1,24 @@
+git branch - Ver as branchs do projeto.
+git branch nomeDaBranch - Criar uma branch.
+git checkout nomeDaBranch - Mudar a branch que está trabalhando no momento para uma outra.
+git merge nomeDaBranch - Receber atualizações de uma outra branch.
+git status - Ver o status dos arquivos, e mudanças que você ainda não deu o commit.
+git add . - Sincronizar os arquivos não adicionados.
+git commit -m "mensagem" - Fazer o commit dos seus arquivos que ficará salva como uma versão do programa.
+git push - Adicionar esse commit a nuvem.
+git reflog - Ver as versões anteriores.
+git reset --hard códigoDaVersão - Voltar a versão selecionada.
+
+Passos a ser seguidos ao trabalhar com alguém.
+1- git pull da branch principal.
+2- Gerar nova branch apartir da branch principal.
+3- Trabalhar e adicionar novas funcionalidades na nova branch que criou.
+4- Finalizar o trabalho na branch secundária.
+5- git checkout na branch principal.
+6- git pull.
+7- Testar e unir (usando o git merge) o código da branch secundária para a branch principal.
+8- git push da branch principal.
+
+Definições
+##Branch## - caminhos diferentes. E um lugar para onde você envia suas atualizações de códigos, geralmente usada uma branch chamada master, ou seja, uma branch principal, onde é colocado apenas códigos funcionais.
+##Merge## - é utilizado para passar código de uma branch para outra, geralmente de uma branch onde os códigos ainda estão em desenvolvimento para a branch master. Para fazer o merge, você precisa dar o git checkout nomeDaBranchQueVaiReceberAsAtualizações, que geralmente é a branch master. depois disso é apenas usar o comando git merge nomeDaBranch e após isso, usar o git push.
