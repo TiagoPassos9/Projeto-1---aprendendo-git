@@ -1,0 +1,14 @@
+d = 1
+while d == 1:
+	a = int(input('digite um número: '))
+	b = int(input('digite outro número: '))
+	c = input('Digite o operador: [ +, -, * ou / ]: ')
+	if c == '+':
+		print(f'\na soma entre {a} e {b} é igual a {a+b}')
+	if c == '-':
+		print(f'\na subtração entre {a} e {b} é igual a {a-b}')
+	if c == '*':
+		print(f'\na multiplicação entre {a} e {b} é igual a {a*b}')
+	if c == '/':
+		print(f'\na divisão entre {a} e {b} é igual a {a/b}')
+	d = int(input('Deseja realizar outro calculo? [1-Sim 2-Não]: '))
