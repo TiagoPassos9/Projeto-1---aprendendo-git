@@ -1,6 +1,7 @@
 git branch - Ver as branchs do projeto.
 git branch nomeDaBranch - Criar uma branch.
 git checkout nomeDaBranch - Mudar a branch que está trabalhando no momento para uma outra.
+git checkout -b nomeDaBranch nomeDaBranchBase - Criar, mudar de branch e copiar os arquivos da branch base para a nova branch em uma só linha de código.
 git merge nomeDaBranch - Receber atualizações de uma outra branch.
 git status - Ver o status dos arquivos, e mudanças que você ainda não deu o commit.
 git add . - Sincronizar os arquivos não adicionados.
@@ -8,6 +9,7 @@ git commit -m "mensagem" - Fazer o commit dos seus arquivos que ficará salva co
 git push - Adicionar esse commit a nuvem.
 git reflog - Ver as versões anteriores.
 git reset --hard códigoDaVersão - Voltar a versão selecionada.
+touch .gitignore - Ignorar um arquivo na hora do git add .., para isso você precisa usar o comando (touch .gitignore) abrir o txt que será criado, e dentro dele escrever o nome do arquivo a ser ignorado, para pastas usar o / exemplo: pasta/ sendo mais de um arquivo, você deve coloca-lo um por linha.
 
 Passos a ser seguidos ao trabalhar com alguém.
 1- git pull da branch principal.
