@@ -1,3 +1,4 @@
+git init - Inicializa uma novo projeto.
 git branch - Ver as branchs do projeto.
 git branch nomeDaBranch - Criar uma branch.
 git checkout nomeDaBranch - Mudar a branch que está trabalhando no momento para uma outra.
