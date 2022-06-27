@@ -14,8 +14,10 @@ git add . - Sincronizar os arquivos não adicionados.
 git commit -m "mensagem" - Fazer o commit dos seus arquivos que ficará salva como uma versão do programa.
 git push - Adicionar esse commit a nuvem.
 git reflog - Ver as versões anteriores.
+git log - um git reflog mais detalhado.
 git reset --hard códigoDaVersão - Voltar a versão selecionada.
 touch .gitignore - Ignorar um arquivo na hora do git add .., para isso você precisa usar o comando (touch .gitignore) abrir o txt que será criado, e dentro dele escrever o nome do arquivo a ser ignorado, para pastas usar o / exemplo: pasta/ sendo mais de um arquivo, você deve coloca-lo um por linha.
+git restore nomedoarquivo - restaura arquivo para versão do ultimo commit
 
 Passos a ser seguidos ao trabalhar com alguém.
 1- git pull da branch principal.
